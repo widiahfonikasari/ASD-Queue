@@ -92,15 +92,15 @@ void displayArray(){
     if(isEmptyArray()){
         cout<<"Antrian Kosong!!"<<endl;
     }else{
-        for(int i=0; i<maksimalAntrianArray; i++){
-        //kalau ruang tidak kosong
-        if(antrianAtm[i] != ""){
-            //kalau  ruang tidak kosong
-            cout<<i+1<<". "<<antrianAtm[i]<<endl;
-        }else{
-            //kalau ruang kosong
-            cout<<i+1<<". (kosong) "<<antrianAtm[i]<<endl;
-        }
+	for(int i=0; i<maksimalAntrianArray; i++){
+	   //kalau ruang tidak kosong
+	   if(antrianAtm[i] != ""){
+           	//kalau  ruang tidak kosong
+	   	cout<<i+1<<". "<<antrianAtm[i]<<endl;
+	   }else{
+           	//kalau ruang kosong
+		cout<<i+1<<". (kosong) "<<antrianAtm[i]<<endl;
+	   }
         }
     }
     cout<<"\n"<<endl;
